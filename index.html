@@ -8,27 +8,32 @@
     
 </head>
 <body>
+    <!-- start header --> 
     <header>
        <h1>Count down timer</h1>
-      
     </header>
     <hr>
+    <!-- start content  -->
     <div id="content">
+        <!-- make form  -->
        <form id="data">
             <label >Event Name</label>
             <br>
+            <!-- input to project title -->
             <input placeholder="Title" type="text" id="title">
             <br>
             <label>Date</label>
             <br>
+            <!-- input to project date and time -->
             <input type="datetime-local" id="date">
             <br>
+            <!-- starting button -->
            <button id="add">start</button>
        </form>
-       <section id="countdown">
-           
+       <!-- countdown event that will add in js -->
+       <section id="countdown">       
        </section>
     </div>
-    <script src="script.js" ></script>
+    <script src="script.js" type="module" ></script>
 </body>
 </html>
